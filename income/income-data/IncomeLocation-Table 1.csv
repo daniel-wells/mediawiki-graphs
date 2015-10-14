@@ -1,0 +1,407 @@
+District,Mean,Median
+County Durham,24700,19600
+Darlington,25400,19800
+Hartlepool,25000,19500
+Middlesbrough,24000,19300
+Northumberland,27700,20700
+Redcar and Cleveland,24700,19900
+Stockton-on-Tees,26000,19500
+Gateshead,22800,19300
+Newcastle upon Tyne,27200,20800
+North Tyneside,24500,19900
+South Tyneside,23600,18800
+Sunderland,23000,18800
+Blackburn with Darwen,21900,17700
+Blackpool,20500,17100
+Cheshire East,33500,22100
+Cheshire West and Chester,29800,20900
+Halton,25200,19800
+Warrington,29400,21800
+Allerdale,25200,19500
+Barrow-in-Furness,22000,18100
+Carlisle,23700,19600
+Copeland,27800,21700
+Eden,23900,18500
+South Lakeland,27000,20800
+Bolton,24900,18700
+Bury,25400,19900
+Manchester,23800,18800
+Oldham,22700,18100
+Rochdale,23800,18900
+Salford,24100,18600
+Stockport,28200,21300
+Tameside,23600,19100
+Trafford,32700,22600
+Wigan,23700,19000
+Burnley,21100,17200
+Chorley,27400,20600
+Fylde,28000,20900
+Hyndburn,21100,17000
+Lancaster,25200,19600
+Pendle,22900,18600
+Preston,25200,18800
+Ribble Valley,30900,22000
+Rossendale,25200,18900
+South Ribble,25500,20800
+West Lancashire,26600,19600
+Wyre,25400,19200
+Knowsley,23700,20000
+Liverpool,24800,19900
+St. Helens,24800,19900
+Sefton,26500,19600
+Wirral,25600,19800
+East Riding of Yorkshire,27300,20700
+"Kingston upon Hull, City of",20400,17300
+North East Lincolnshire,23600,19200
+North Lincolnshire,25400,20200
+York,26500,19900
+Craven,28300,22100
+Hambleton,32700,21300
+Harrogate,34300,21800
+Richmondshire,26800,20700
+Ryedale,26400,19800
+Scarborough,24200,18900
+Selby,28300,20900
+Barnsley,23200,18700
+Doncaster,23800,18400
+Rotherham,23600,19200
+Sheffield,25300,20000
+Bradford,24200,18900
+Calderdale,25400,19000
+Kirklees,25300,19600
+Leeds,26700,20400
+Wakefield,23800,19100
+Derby,24900,19700
+Leicester,21600,17600
+Nottingham,22700,17600
+Rutland,35700,24100
+Amber Valley,27600,21500
+Bolsover,23700,19100
+Chesterfield,24200,19100
+Derbyshire Dales,29900,21300
+Erewash,24700,19700
+High Peak,27100,20900
+North East Derbyshire,24800,18800
+South Derbyshire,29000,21200
+Blaby,26500,20700
+Charnwood,27800,21300
+Harborough,32400,23600
+Hinckley and Bosworth,28900,22600
+Melton,28600,20800
+North West Leicestershire,27900,22100
+Oadby and Wigston,25400,20700
+Boston,22200,17400
+East Lindsey,23400,17700
+Lincoln,22600,18700
+North Kesteven,27000,21600
+South Holland,23000,18200
+South Kesteven,28400,20300
+West Lindsey,26600,20600
+Corby,22000,18100
+Daventry,33100,23000
+East Northamptonshire,31000,22700
+Kettering,26800,20000
+Northampton,26400,20700
+South Northamptonshire,34900,22900
+Wellingborough,24900,18600
+Ashfield,22100,18100
+Bassetlaw,25500,19400
+Broxtowe,26900,21900
+Gedling,25500,20100
+Mansfield,22100,17900
+Newark and Sherwood,28700,19800
+Rushcliffe,34200,25000
+"Herefordshire, County of",25900,19600
+Shropshire,27100,20700
+Stoke-on-Trent,21100,18200
+Telford and Wrekin,24200,19100
+Cannock Chase,22700,18400
+East Staffordshire,26100,20200
+Lichfield,32500,23400
+Newcastle-under-Lyme,24000,18800
+South Staffordshire,27800,20600
+Stafford,28000,21900
+Staffordshire Moorlands,24900,19800
+Tamworth,24600,20600
+North Warwickshire,27600,21400
+Nuneaton and Bedworth,23600,19400
+Rugby,29300,22600
+Stratford-on-Avon,34500,23000
+Warwick,33000,24600
+Birmingham,25400,19500
+Coventry,23700,19200
+Dudley,24300,19700
+Sandwell,21600,18400
+Solihull,31100,22600
+Walsall,23400,18600
+Wolverhampton,22500,17800
+Bromsgrove,32400,24100
+Malvern Hills,31400,22700
+Redditch,23200,19000
+Worcester,26000,20400
+Wychavon,30200,20900
+Wyre Forest,24800,18100
+Bedford,29700,21700
+Central Bedfordshire,31000,23600
+Luton,23300,19000
+Peterborough,25000,19000
+Southend-on-Sea,30600,22000
+Thurrock,26300,21400
+Cambridge,34700,25200
+East Cambridgeshire,30400,21600
+Fenland,23800,19400
+Huntingdonshire,29800,22600
+South Cambridgeshire,36100,24900
+Basildon,29900,22100
+Braintree,31700,22300
+Brentwood,42400,26700
+Castle Point,27700,20600
+Chelmsford,33900,23900
+Colchester,29300,21900
+Epping Forest,41600,25400
+Harlow,24800,20100
+Maldon,31400,22400
+Rochford,30300,22000
+Tendring,24600,17800
+Uttlesford,43100,26500
+Broxbourne,29400,21900
+Dacorum,36200,24200
+East Hertfordshire,39200,25800
+Hertsmere,40400,24500
+North Hertfordshire,36200,24500
+St Albans,48400,28400
+Stevenage,26600,22500
+Three Rivers,40100,26900
+Watford,30900,23200
+Welwyn Hatfield,33300,23500
+Breckland,24500,18800
+Broadland,27800,20700
+Great Yarmouth,22700,17500
+King's Lynn and West Norfolk,24300,18300
+North Norfolk,23800,18100
+Norwich,25200,19100
+South Norfolk,28900,21800
+Babergh,30600,21700
+Forest Heath,26400,20400
+Ipswich,24200,19300
+Mid Suffolk,30000,23100
+St Edmundsbury,29500,21100
+Suffolk Coastal,31000,21400
+Waveney,24000,17600
+Barking and Dagenham,23700,20100
+Barnet,41000,25800
+Bexley,28600,23100
+Brent,28300,20600
+Bromley,37200,26900
+Camden,71200,31600
+City of London,131000,58300
+Croydon,30700,23900
+Ealing,32600,22700
+Enfield,30800,22700
+Greenwich,31500,22600
+Hackney,32700,24300
+Hammersmith and Fulham,54300,27600
+Haringey,35400,23300
+Harrow,33300,24000
+Havering,30600,23500
+Hillingdon,30100,23200
+Hounslow,32200,22400
+Islington,48400,28500
+Kensington and Chelsea,131000,37800
+Kingston upon Thames,39900,26500
+Lambeth,37600,26000
+Lewisham,30400,23000
+Merton,44400,25800
+Newham,23100,18500
+Redbridge,31800,23800
+Richmond upon Thames,58800,33400
+Southwark,37500,25000
+Sutton,32400,25000
+Tower Hamlets,39000,25800
+Waltham Forest,26200,21400
+Wandsworth,54700,31000
+Westminster,92200,35200
+Bracknell Forest,33300,24900
+Brighton and Hove,30300,22400
+Medway,26100,21200
+Milton Keynes,29400,23000
+Portsmouth,24800,20400
+Reading,29800,22900
+Slough,26900,21500
+Southampton,24200,19900
+West Berkshire,37200,26300
+Isle of Wight,23500,18200
+Windsor and Maidenhead,46900,27200
+Wokingham,39900,27500
+Aylesbury Vale,34200,23500
+Chiltern,51600,28700
+South Bucks,51400,28400
+Wycombe,37500,25300
+Eastbourne,24800,19600
+Hastings,22800,18400
+Lewes,34900,21300
+Rother,29900,19700
+Wealden,35900,22300
+Basingstoke and Deane,33100,23500
+East Hampshire,34900,23400
+Eastleigh,28900,22300
+Fareham,30000,23000
+Gosport,25600,21900
+Hart,39000,25700
+Havant,25500,19500
+New Forest,29900,21700
+Rushmoor,27600,23400
+Test Valley,32800,22600
+Winchester,40300,25600
+Ashford,30000,21600
+Canterbury,27500,20300
+Dartford,28700,22800
+Dover,24500,18600
+Gravesham,27800,22900
+Maidstone,30900,23200
+Sevenoaks,44800,24900
+Shepway,26600,20200
+Swale,26500,21500
+Thanet,23300,18100
+Tonbridge and Malling,35900,24900
+Tunbridge Wells,41700,25600
+Cherwell,30600,22300
+Oxford,32100,23400
+South Oxfordshire,39100,24800
+Vale of White Horse,35200,26000
+West Oxfordshire,32600,23100
+Elmbridge,62100,30700
+Epsom and Ewell,36600,25500
+Guildford,45600,28300
+Mole Valley,43500,26800
+Reigate and Banstead,40700,26500
+Runnymede,38400,26100
+Spelthorne,31700,23900
+Surrey Heath,39100,27700
+Tandridge,44600,27500
+Waverley,47300,28600
+Woking,39700,26100
+Adur,24600,20300
+Arun,26100,19400
+Chichester,33500,22500
+Crawley,26200,21000
+Horsham,38200,26200
+Mid Sussex,35900,23600
+Worthing,27100,20800
+Bath and North East Somerset,31600,22400
+Bournemouth,25500,19900
+"Bristol, City of",26600,20900
+Cornwall,23300,18100
+Isles of Scilly,,
+North Somerset,30200,22100
+Plymouth,23300,18800
+Poole,27700,21000
+South Gloucestershire,27900,22100
+Swindon,26200,20600
+Torbay,21800,16900
+Wiltshire,30200,22100
+East Devon,25200,19300
+Exeter,24700,20000
+Mid Devon,27100,19500
+North Devon,23400,18400
+South Hams,28500,21500
+Teignbridge,25700,19800
+Torridge,23200,18400
+West Devon,26100,20100
+Christchurch,26800,20700
+East Dorset,28300,20900
+North Dorset,28100,20700
+Purbeck,27100,20100
+West Dorset,28400,21300
+Weymouth and Portland,23800,19100
+Cheltenham,29900,21700
+Cotswold,38800,25900
+Forest of Dean,25400,19100
+Gloucester,24300,20200
+Stroud,31400,21700
+Tewkesbury,28800,20800
+Mendip,29200,20200
+Sedgemoor,25700,20000
+South Somerset,26100,20000
+Taunton Deane,26900,21000
+West Somerset,22700,16000
+Isle of Anglesey,23800,19300
+Blaenau Gwent,20200,17800
+Bridgend,23500,19600
+Caerphilly,22500,18600
+Cardiff,26900,20900
+Carmarthenshire,24100,19800
+Ceredigion,22800,18700
+Conwy,24400,19400
+Denbighshire,25400,20000
+Flintshire,25200,20300
+Gwynedd,23600,19100
+Merthyr Tydfil,23500,19200
+Monmouthshire,29200,21300
+Neath Port Talbot,23700,19800
+Newport,24200,20000
+Pembrokeshire,23400,18600
+Powys,22900,18700
+Rhondda Cynon Taf,22200,17700
+Swansea,24700,19500
+Torfaen,22400,18400
+Vale of Glamorgan,27000,20600
+Wrexham,24500,18800
+Aberdeen City,34200,23800
+Aberdeenshire,35500,25200
+Angus,27700,21500
+Argyll and Bute,25200,19200
+Clackmannanshire,24600,20600
+Dumfries and Galloway,24100,19800
+Dundee City,23500,18700
+East Ayrshire,23400,19000
+East Dunbartonshire,31900,24300
+East Lothian,29800,21300
+East Renfrewshire,34900,25700
+City of Edinburgh,32300,22500
+Eilean Siar,26500,22600
+Falkirk,26200,20900
+Fife,26100,20900
+Glasgow City,25700,20400
+Highland,26200,20600
+Inverclyde,24700,19000
+Midlothian,24800,19200
+Moray,27000,20100
+North Ayrshire,24600,20200
+North Lanarkshire,25000,20600
+Orkney Islands,24400,18900
+Perth and Kinross,29200,20600
+Renfrewshire,25300,20200
+Scottish Borders,27300,20400
+Shetland Islands,30400,22700
+South Ayrshire,28800,22400
+South Lanarkshire,26800,21300
+Stirling,31600,21900
+West Dunbartonshire,23100,20000
+West Lothian,24900,19600
+Antrim,26600,22300
+Ards,24800,19400
+Armagh,23100,18200
+Ballymena,24200,19000
+Ballymoney,22700,18400
+Banbridge,25400,20100
+Belfast,25700,19800
+Carrickfergus,25400,21300
+Castlereagh,27500,21900
+Coleraine,25100,19100
+Cookstown,24100,19300
+Craigavon,23000,19100
+Derry,22800,17900
+Down,25700,20400
+Dungannon,24900,19600
+Fermanagh,23200,18000
+Larne,25300,21300
+Limavady,24400,19600
+Lisburn,26900,21100
+Magherafelt,23500,19700
+Moyle,22100,18500
+Newry and Mourne,23100,18400
+Newtownabbey,24700,20600
+North Down,28500,21600
+Omagh,22300,18300
+Strabane,21100,17300

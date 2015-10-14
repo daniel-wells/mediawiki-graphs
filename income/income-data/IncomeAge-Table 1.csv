@@ -1,0 +1,40 @@
+Age,Category,MedianIncome
+Under 20,Both,11200
+20-24,Both,14500
+25-29,Both,19300
+30-34,Both,23400
+35-39,Both,25000
+40-44,Both,25100
+45-49,Both,25000
+50-54,Both,24500
+55-59,Both,23200
+60-64,Both,20400
+65-69,Both,19300
+70-74,Both,17200
+75 and over,Both,17000
+Under 20,Male,11500
+20-24,Male,15300
+25-29,Male,20000
+30-34,Male,25000
+35-39,Male,28100
+40-44,Male,29400
+45-49,Male,29600
+50-54,Male,29400
+55-59,Male,27200
+60-64,Male,23600
+65-69,Male,20900
+70-74,Male,17900
+75 and over,Male,18800
+Under 20,Female,10600
+20-24,Female,13700
+25-29,Female,18500
+30-34,Female,21200
+35-39,Female,21100
+40-44,Female,20100
+45-49,Female,20200
+50-54,Female,19500
+55-59,Female,19200
+60-64,Female,17100
+65-69,Female,17100
+70-74,Female,16000
+75 and over,Female,15400
