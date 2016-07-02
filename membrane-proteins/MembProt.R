@@ -13,6 +13,12 @@ library(plyr)
 MembProt <- subset(MembProt, Year != "2015")
 
 # Create Plot
-ggplot(data=MembProt,aes(x=Year, y=Cumulative,)) + geom_bar(stat="identity",size=1) + labs(x="Year", y="Cumulative Number of Structures", title="Cumulative Number of Membrane Protein Structures") + scale_x_continuous(breaks=c(seq(from=1985,to=2014,by=2))) + scale_y_continuous(breaks=c(seq(from=0,to=600,by=100))) + theme_minimal() + theme(axis.text.x = element_text(angle=45,hjust=1),axis.line = element_line(size = 0.5, linetype = "solid",colour = "black"))
+ggplot(data=MembProt,aes(x=Year, y=Cumulative,)) +
+	geom_bar(stat="identity",size=1) +
+	labs(x="Year", y="Cumulative Number of Structures", title="Cumulative Number of Membrane Protein Structures") +
+	scale_x_continuous(breaks=c(seq(from=1985,to=2014,by=2))) +
+	scale_y_continuous(breaks=c(seq(from=0,to=600,by=100))) +
+	theme_minimal() +
+	theme(axis.text.x = element_text(angle=45,hjust=1),axis.line = element_line(size = 0.5, linetype = "solid",colour = "black"))
 
 ggsave(file="MembProf.pdf", width=7, height=5)

@@ -18,6 +18,12 @@ library(ggplot2)
 library(scales)
 
 # Create Plot
-ggplot(data=IncomePercentiles,aes(x=Percentile, y=X2012to13,)) + geom_bar(stat="identity",width=1) + scale_x_continuous(breaks=c(seq(from=0,to=100,by=5))) + scale_y_continuous(limits=c(0,102000),breaks=c(seq(from=0,to=101000,by=10000)),labels=comma) + labs(x="Percentile (%)", y="Post-Tax Income (£)", title="Post-Tax Income Percentiles") + theme_minimal() + theme(axis.line = element_line(size = 0.5, linetype = "solid",colour = "black"))
+ggplot(data=IncomePercentiles,aes(x=Percentile, y=X2012to13,)) +
+	geom_bar(stat="identity",width=1) +
+	scale_x_continuous(breaks=c(seq(from=0,to=100,by=5))) +
+	scale_y_continuous(limits=c(0,102000),breaks=c(seq(from=0,to=101000,by=10000)),labels=comma) +
+	labs(x="Percentile (%)", y="Post-Tax Income (£)", title="Post-Tax Income Percentiles") +
+	theme_minimal() +
+	theme(axis.line = element_line(size = 0.5, linetype = "solid",colour = "black"))
 
 ggsave(file="IncomePercentile.pdf", width=7, height=5)

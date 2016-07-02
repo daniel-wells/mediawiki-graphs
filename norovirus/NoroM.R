@@ -70,7 +70,13 @@ Noro$Month <- factor(Noro$Month,levels=c("Aug","Sep","Oct","Nov","Dec","Jan","Fe
 NoroAnnual <- ddply(Noro, c("Month"), summarise,mean = mean(Cases),sd= sd(Cases),N = length(Cases),se= sd / sqrt(N))
 
 # Plot Mean case per month
-ggplot(NoroAnnual, aes(x=Month, y=mean,group=0)) +  geom_ribbon(aes(ymin=mean-sd,ymax=mean+sd),alpha=0.3) + geom_line() + labs(x="Month", y="Mean Cases", title="Mean Norovirus Cases per Month (2000-2011)") + annotate("text", x=3, y=1500, label="Shaded Area: Standard Deviation",size=rel(3)) + theme_minimal() + theme(axis.line = element_line(size = 0.5, linetype = "solid",colour = "black"))
+ggplot(NoroAnnual, aes(x=Month, y=mean,group=0)) +
+	geom_ribbon(aes(ymin=mean-sd,ymax=mean+sd),alpha=0.3) +
+	geom_line() +
+	labs(x="Month", y="Mean Cases", title="Mean Norovirus Cases per Month (2000-2011)") +
+	annotate("text", x=3, y=1500, label="Shaded Area: Standard Deviation",size=rel(3)) +
+	theme_minimal() +
+	theme(axis.line = element_line(size = 0.5, linetype = "solid",colour = "black"))
 
 ggsave(file="NoroM.pdf", width=7, height=5)
 

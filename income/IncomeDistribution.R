@@ -33,6 +33,13 @@ library(scales)
 
 data.label <- data.frame(x = c(23556,29172), label = c("Median (£23,556)\n","Mean (£29,172)\n"))
 
-ggplot(data=IncomeDistribution,aes(x=BHCAIncome, y=Individuals)) + geom_bar(stat="identity",width=520) + labs(x="Annual Equivalised Household Income Before Housing Costs (£)", y="Number of Individuals (millions)", title="Distribution of UK Household Income Before Housing Costs") + theme_minimal() + theme(axis.line = element_line(size = 0.5, linetype = "solid",colour = "black")) + scale_x_continuous(breaks=c(seq(from=0,to=52000,by=5000)),labels=comma) + geom_vline(xintercept = data.label$x) + geom_text(data = data.label,aes(x=x, label=label,angle=90, y=3))
+ggplot(data=IncomeDistribution,aes(x=BHCAIncome, y=Individuals)) +
+	geom_bar(stat="identity",width=520) +
+	labs(x="Annual Equivalised Household Income Before Housing Costs (£)", y="Number of Individuals (millions)", title="Distribution of UK Household Income Before Housing Costs") +
+	theme_minimal() +
+	theme(axis.line = element_line(size = 0.5, linetype = "solid",colour = "black")) +
+	scale_x_continuous(breaks=c(seq(from=0,to=52000,by=5000)),labels=comma) +
+	geom_vline(xintercept = data.label$x) +
+	geom_text(data = data.label,aes(x=x, label=label,angle=90, y=3))
 
 ggsave(file="IncomeDistribution.pdf", width=7, height=5)

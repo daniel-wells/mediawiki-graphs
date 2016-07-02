@@ -38,6 +38,12 @@ PDB <- structure(list(Year = c(2014L, 2013L, 2012L, 2011L, 2010L, 2009L,
 
 library(ggplot2)
 
-ggplot(data=PDB,aes(x=Year, y=Yearly, colour=Category)) + geom_line(size=1) + labs(x="Year", y="Number of New Structures Per Year", title="Rate of Protein Structure Determination (Log Scale)", color="") + scale_x_continuous(breaks=c(seq(from=1976,to=2014,by=2))) + theme_minimal() + theme(legend.position="bottom",axis.text.x = element_text(angle=45,hjust=1),axis.line = element_line(size = 0.5, linetype = "solid",colour = "black")) + scale_y_log10()
+ggplot(data=PDB,aes(x=Year, y=Yearly, colour=Category)) +
+	geom_line(size=1) +
+	labs(x="Year", y="Number of New Structures Per Year", title="Rate of Protein Structure Determination (Log Scale)", color="") +
+	scale_x_continuous(breaks=c(seq(from=1976,to=2014,by=2))) +
+	theme_minimal() +
+	theme(legend.position="bottom",axis.text.x = element_text(angle=45,hjust=1),axis.line = element_line(size = 0.5, linetype = "solid",colour = "black")) +
+	scale_y_log10()
 
 ggsave(file="PDB.pdf", width=7, height=5)

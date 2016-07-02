@@ -13,6 +13,11 @@ library(scales)
 IncomeCount$IncomeRange <- factor(IncomeCount$IncomeRange,levels=c("8-10","10-12","12-15","15-20","20-30","30-50","50-70","70-100","100-150","150-200","200-300","300-500","500-1000","1000+"),ordered=TRUE)
 
 
-ggplot(data=IncomeCount,aes(x=IncomeRange, y=Individuals)) + geom_bar(stat="identity") + labs(x="Annual Income Range Before Deductions (£'000)", y="Number of Individuals", title="Number of Individuals by Income") + theme_minimal() + theme(axis.line = element_line(size = 0.5, linetype = "solid",colour = "black")) + scale_y_continuous(breaks=c(seq(from=0,to=7400000,by=1000000)),labels=comma)
+ggplot(data=IncomeCount,aes(x=IncomeRange, y=Individuals)) +
+	geom_bar(stat="identity") +
+	labs(x="Annual Income Range Before Deductions (£'000)", y="Number of Individuals", title="Number of Individuals by Income") +
+	theme_minimal() +
+	theme(axis.line = element_line(size = 0.5, linetype = "solid",colour = "black")) + 
+	scale_y_continuous(breaks=c(seq(from=0,to=7400000,by=1000000)),labels=comma)
 
 ggsave(file="IncomeCount.pdf", width=10, height=5)

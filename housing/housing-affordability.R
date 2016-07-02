@@ -87,11 +87,11 @@ PER <- structure(list(Date = structure(c(4838, 4868, 4899, 4929, 4960,
 -391L), class = "data.frame")
 
 PERplot <- ggplot(PER, aes(x = Date, y = PER)) + 
-geom_line() + 
-scale_x_date(breaks='2 year',labels = date_format("%Y"),limits =c(as.Date('1984-1-1'), as.Date('2015-1-1'))) + 
-labs(x="Date", y="Price to Earnings Ratio", title="Housing Affordability") + 
-scale_y_continuous(limits =c(3, 6)) + 
-geom_hline(yintercept=mean(PER$PER), color='blue')
+	geom_line() + 
+	scale_x_date(breaks='2 year',labels = date_format("%Y"),limits =c(as.Date('1984-1-1'), as.Date('2015-1-1'))) + 
+	labs(x="Date", y="Price to Earnings Ratio", title="Housing Affordability") + 
+	scale_y_continuous(limits =c(3, 6)) + 
+	geom_hline(yintercept=mean(PER$PER), color='blue')
 
 ggsave(file="PER-affordability.png", width=12.75, height=7)
 
@@ -155,7 +155,12 @@ nationwide <- structure(list(Date = structure(c(1L, 2L, 3L, 4L, 5L, 6L, 7L,
 seq <- seq(1983, 2015, by=2)
 seq <- data.frame(values=paste(seq,"Q1",sep = " "),labels=seq)
 
-plot <- ggplot(nationwide, aes(x = Date, y = PaymentPercent,group=1)) + geom_line() + labs(x="Date", y="Mortgage payments as % of mean take home pay", title="Housing Affordability") + geom_hline(yintercept=mean(nationwide$PaymentPercent),color='blue') + scale_x_discrete(breaks=seq$values,labels=seq$labels) + scale_y_continuous(labels=percent)
+plot <- ggplot(nationwide, aes(x = Date, y = PaymentPercent,group=1)) +
+	geom_line() +
+	labs(x="Date", y="Mortgage payments as % of mean take home pay", title="Housing Affordability") +
+	geom_hline(yintercept=mean(nationwide$PaymentPercent),color='blue') +
+	scale_x_discrete(breaks=seq$values,labels=seq$labels) +
+	scale_y_continuous(labels=percent)
 
 ggsave(file="nationwide-affordability.png", width=12.75, height=7)
 

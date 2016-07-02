@@ -20,6 +20,11 @@ library(scales)
 
 IncomeAge$Age <- factor(IncomeAge$Age,levels=c("Under 20","20-24","25-29","30-34","35-39","40-44","45-49","50-54","55-59","60-64","65-69","70-74","75 and over"),ordered=TRUE)
 
-ggplot(data=IncomeAge,aes(x=Age, y=MedianIncome, colour=Category)) + geom_line(aes(group=Category),size=1) + labs(x="Age", y="Median Income Pre-Tax (£)", title="Income by Age and Gender in the UK", color="Gender")   + theme_minimal() + theme(legend.position="bottom",axis.line = element_line(size = 0.5, linetype = "solid",colour = "black")) + scale_y_continuous(limits=c(0,30000),breaks=c(seq(from=0,to=30000,by=5000)),labels=comma)
+ggplot(data=IncomeAge,aes(x=Age, y=MedianIncome, colour=Category)) +
+	geom_line(aes(group=Category),size=1) +
+	labs(x="Age", y="Median Income Pre-Tax (£)", title="Income by Age and Gender in the UK", color="Gender") +
+	theme_minimal() +
+	theme(legend.position="bottom",axis.line = element_line(size = 0.5, linetype = "solid",colour = "black")) +
+	scale_y_continuous(limits=c(0,30000),breaks=c(seq(from=0,to=30000,by=5000)),labels=comma)
 
 ggsave(file="IncomeAge.pdf", width=8.5, height=5)

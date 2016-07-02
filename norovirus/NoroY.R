@@ -70,6 +70,11 @@ NoroSeason <- ddply(Noro, c("Season"), summarise, Sum=sum(Cases,na.rm=TRUE))
 NoroSeason <- subset(NoroSeason, Season != "1999/2000" & Season != "2012/2013")
 
 # Plot Total Case Per Season
-ggplot(data=NoroSeason,aes(x=Season, y=Sum,group=0)) + geom_line(size=1) + labs(x="Season (Aug-Jul)", y="Total Cases", title="Norovirus Cases Per Season") + scale_y_continuous(limits=c(0,12600),breaks = seq(0,12600,by = 2000)) + theme_minimal() + theme(axis.text.x = element_text(angle=45,hjust=1),axis.line = element_line(size = 0.5, linetype = "solid",colour = "black"))
+ggplot(data=NoroSeason,aes(x=Season, y=Sum,group=0)) +
+	geom_line(size=1) +
+	labs(x="Season (Aug-Jul)", y="Total Cases", title="Norovirus Cases Per Season") +
+	scale_y_continuous(limits=c(0,12600),breaks = seq(0,12600,by = 2000)) +
+	theme_minimal() + 
+	theme(axis.text.x = element_text(angle=45,hjust=1),axis.line = element_line(size = 0.5, linetype = "solid",colour = "black"))
 
 ggsave(file="NoroY.pdf", width=7, height=5)
